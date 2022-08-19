@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+  <body>
+    <h1>Registro de producto</h1>
+    <form action="ResultadoFormulario.html" method="post">
+      <label>Código:</label>
+      <input type="text" id="codigo" name="codigo" />
+
+      <br /><br />
+      <label>Descripción:</label>
+      <input type="text" id="descripcion" name="descripcion" />
+
+      <br /><br />
+      <label>Código de barra:</label>
+      <input type="text" id="barra" name="codbarra" />
+
+      <br /><br />
+      <label>Precio unitario:</label>
+      <input type="text" id="precio" name="precio" />
+
+      <br /><br />
+      <label>Stock:</label>
+      <input type="text" id="stock" name="stock" />
+
+      <br /><br />
+      <label>Proveedor:</label>
+      <input type="text" id="proveedor" name="proveedor" />
+
+      <br /><br />
+      <label>Estado:</label>
+      <input type="checkbox" id="estado" name="estado" />Activo
+
+      <br /><br />
+      <label>Categoría:</label>
+      <select name="select">
+        <option value="categoria0">Selecciona categoría</option>
+        <option value="categoria1">Categoria 1</option>
+        <option value="categoria2">Categoria 2</option>
+        <option value="categoria3">Categoria 3</option>
+      </select>
+      <br /><br /><br />
+      <input type="submit" id="btnguardar" value="Guardar" />
+      <input
+        type="button"
+        id="cancelar"
+        onclick="location.href='index.html'"
+        value="Cancelar"
+      />
+      <br /><br /><br />
+    </form>
+  </body>
+</html>
